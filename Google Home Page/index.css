@@ -1,0 +1,312 @@
+body{
+    overflow-x:hidden;
+    overflow-y:hidden;
+}
+
+#first{
+    width:8%;
+    display:flex;
+    justify-content: space-between;
+    margin-left:15px;
+    margin-top:15px;
+    
+}
+.as{
+    color:black;
+    text-decoration:none;
+}
+.as:hover{
+    border-bottom:1px solid black;
+}
+.but{
+   display: flex;
+   justify-content: right;
+   
+
+}
+#box1{
+    margin-left:15px;
+    height:40px;
+    margin-right:25px;
+    margin-top:-26px;
+}
+button{
+    margin-top:-23px;
+    margin-right:20px;
+}
+#second{
+    display:flex;
+    justify-content: space-between;
+   margin-right:-20px;
+   
+}
+.G{
+    width:8%;
+    margin-top:-15px;
+    margin-right:40px;
+}
+.GI{
+    text-decoration:none;
+    color:black;
+}
+.GI:hover{
+    border-bottom:1px solid black;
+}
+button{
+    background:royalblue;
+    color:white;
+    border:none;
+    font-weight:bold;
+    width:80px;
+}
+.button{
+    color:white;
+    text-decoration:none;
+}
+button:hover{
+    background:hsl(236, 85%, 66%);
+}
+
+.bar{
+    border-top-width: 1px;
+border-top-style:solid;
+border-bottom-width: 1px;
+border-bottom-style: solid ;
+border-left-width: 1px;
+border-left-style: 
+solid;
+border-right-width: 1px;
+border-right-style:solid;
+width: 450px;
+padding-top: 10px;
+padding-bottom: 10px;
+padding-left: 10px;
+border-radius:40px;
+height:auto;
+}
+#search{
+    width:400px;
+    border:none;
+    font-size:15px;
+outline:none;
+background:white;
+}
+#grid{
+    display: grid;
+    justify-content: center;
+    justify-items:center;
+    height:23vh;
+    margin-top:65px;
+
+}
+svg{
+    margin-top:5px;
+}
+
+.sub2{
+
+    display:inline;
+    width:120px;
+    background:rgb(241, 241, 241);
+    padding:15px 15px 15px 15px;
+    font-size:13px;
+    border:none;
+    color:rgb(65, 64, 64);
+    font-family: 'Roboto', sans-serif;
+    
+    }
+    #sub{
+        width:280px;
+        margin-top:40px;
+        
+    }
+    .sub2:hover{
+        background:rgb(214, 214, 214);
+        color:black;
+
+    }
+    #google{
+        margin-left:15px;
+    }
+    #gluck{
+        margin-right:15px;
+    }
+    
+
+    
+.foot{
+    display:flex;
+    justify-content:space-between;
+    width:50%;
+    
+}
+#footer{
+    color:rgb(82, 82, 82);
+    
+    -webkit-margin-before:330px;
+    margin-top:310px;  
+    background:rgb(228, 228, 228);
+    padding:20px 0px 40px 0px;
+}
+.D{
+    position:relative;
+    left:15px;
+}
+.W{
+    font-family: 'Roboto', sans-serif;
+    position:relative;
+    left:15px;
+}
+.W:hover{
+    border-bottom:1px solid black;
+}
+@media screen and (max-width:1250px){
+    .G{
+        width:110px;
+    }
+    
+    
+    #first{
+        width:110px;
+    }
+    .foot{
+        display:grid;
+        grid-template-areas: "header header2 header3"
+        "mid mid2 mid3"
+        "foot foot2 foot3";
+       grid-row-gap:10px;
+    }
+    #area1{
+        grid-area:header;
+        
+    }
+    #area2{
+        grid-area:mid;
+    }
+    #area3{
+        grid-area:header3;
+    }
+    .W:hover{
+        border:none;
+    }
+   
+
+   
+    
+}
+@media screen and (max-width:1364px) {
+body{
+    overflow-x:hidden;
+}
+    
+    #footer{
+        margin-top:250px;
+        padding-bottom:90px;
+    }
+}
+@media screen and (max-width:890px) {
+    body{
+        overflow-y:hidden;
+    }
+
+#area3{
+    grid-area:foot;
+}
+
+#footer{
+    margin-top:230px;
+padding-bottom:20px;
+}
+
+}
+
+
+
+@media screen and (max-width:440px){
+
+    .as{
+        display:none;
+    }
+    .but{
+        margin-top:20px;
+    }
+    img{
+        width:160px;
+        height:60px;
+    }
+    .bar{
+        width:290px;
+        height:35px;
+
+    }
+    #search{
+        padding-top:9px;
+        
+        
+        
+        width:220px;
+    
+    }
+    svg{
+        display:none;
+    }
+    body{
+ overflow-x:hidden;
+    }
+}
+
+@media screen and (min-height:400px){
+
+    .but{
+        display: flex;
+        justify-content: right;
+        
+}
+
+}
+   
+   @media screen and (max-width:1400px){
+
+   
+    .but{
+        float:right;
+        
+    }
+   
+    #second{
+        display:grid;
+        grid-template-areas:"head head1";
+        grid-column-gap:15px;
+
+    }
+    #gmail{
+        grid-area:head;
+    }
+    #images{
+        grid-area:head1;
+    }
+    .G{
+        margin-right:90px;
+    } 
+    #second{
+        margin-right:-60px;
+    }
+    
+    
+}
+@media screen and (max-width:470px){
+    #first{
+        visibility:hidden;
+    }
+    .bar{
+        width:280px;
+    }
+    #search{
+        width:200px;
+    }
+    #footer{
+        margin-top:150px;
+    }
+}
+
+    
